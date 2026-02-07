@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakibul Hasan | Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f172a; color: #e5e7eb; }
+
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1e293b, #020617);
+    }
+
+    header h1 { font-size: 3.5rem; }
+    header span { color: #38bdf8; }
+    header p { margin-top: 10px; font-size: 1.2rem; opacity: 0.8; }
+
+    .btn {
+      margin-top: 25px;
+      display: inline-block;
+      padding: 12px 30px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover { background: #0ea5e9; }
+
+    section { padding: 80px 10%; }
+
+    h2 { font-size: 2.5rem; margin-bottom: 30px; color: #38bdf8; }
+
+    .about, .skills, .projects { display: grid; gap: 30px; }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      transition: 0.3s;
+    }
+
+    .card:hover { transform: translateY(-5px); }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .skill { background: #1e293b; padding: 15px; border-radius: 10px; text-align: center; }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Hi, I'm <span>Rakibul Hasan</span></h1>
+    <p>Problem Solver • Software Engineer • Competitive Programmer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I'm a Computer Science student passionate about building scalable systems and solving real-world problems.
+      I've solved <b>1100+ algorithmic problems</b> across Codeforces and LeetCode, and I enjoy turning complex
+      ideas into clean and efficient software.
+    </p>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">C / C++</div>
+    <div class="skill">Java</div>
+    <div class="skill">Python</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">React</div>
+    <div class="skill">Django</div>
+    <div class="skill">MySQL</div>
+    <div class="skill">Linux</div>
+    <div class="skill">Git</div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Alumni & TA Management System</h3>
+    <p>
+      Full-stack platform using React, Django REST, and MySQL that automated university TA recruitment and
+      alumni engagement, reducing manual workload by <b>60%</b>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Lost and Found System</h3>
+    <p>
+      ML-based detection system with Arduino and RFID that achieved <b>90% accuracy</b> in automated item retrieval.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Internal Job Management System</h3>
+    <p>
+      Award-winning PHP project that streamlined internal hiring processes and won <b>Champion</b> at UIU CSE Project Show.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Rakibul Hasan | Dhaka, Bangladesh</p>
+</footer>
+
+</body>
+</html>
